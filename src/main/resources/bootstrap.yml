@@ -1,8 +1,8 @@
 spring:
   application:
     name: config-client-k8s
-  cloud:
-    kubernetes:
-      config:
-        name: config-client-k8s
-        namespace: pendalegi
+#  cloud:
+#    kubernetes:
+#      config:
+#        name: config-client-k8s
+#        namespace: pendalegi
