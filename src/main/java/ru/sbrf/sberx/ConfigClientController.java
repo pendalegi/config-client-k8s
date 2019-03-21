@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RefreshScope
 @RestController
-@RequestMapping(path = "test", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
 public class ConfigClientController {
 
     @Value("${message: Default Hellow World}")
     String message;
 
-    @GetMapping("/foo")
+    @GetMapping
     public String doTest(){
         return message;
 
