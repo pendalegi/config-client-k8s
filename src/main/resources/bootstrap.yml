@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: config-client-k8s
+  cloud:
+    kubernetes:
+      config:
+        name: my-config-map1
+        namespace: pendalegi
